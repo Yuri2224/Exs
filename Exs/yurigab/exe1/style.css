@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(77, 76, 76);
+    color: #fff; 
+    width: fit-content;
+    height: auto;
+    column-gap: 4vh;
+}
+
+
+header{
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: solid;
+    background-color: aliceblue;
+    width: 100vw;
+    
+}
+
+
+.ages{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+    gap: 15vw;
+    width: 100%;
+    background-size: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px; 
+    padding: 40px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    background-color: rgb(0, 0, 0); 
+    margin: 0 auto;
+}
+
+/* Heading styles */
+h1 {
+    margin-bottom: 20px;
+    color: #fff; /* Cor do título */
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ccc; /* Cor do rótulo */
+}
+
+input[type="number"],
+input[type="text"],
+button {
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+button:focus {
+    outline: none;
+    border-color: #55677a; /* Azul corporativo */
+}
+
+button {
+    cursor: pointer;
+    background-color: #009eb3; /* Azul corporativo */
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: #ffffff; /* Azul corporativo mais escuro */
+}
+
+
+#result,
+img {
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    display: block;
+}

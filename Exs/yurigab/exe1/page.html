@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competidor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="ages">
+                <li><a href="../exe1/page.html">Ex 1</a></li>
+                <li><a href="../exe2/page.html">Ex 2</a></li>
+                <li><a href="../exe3/page.html">E3</a></li>
+                <li><a href="../exe4/page.html">Ex 4</a></li>
+                <li><a href="../exe5/page.html">Ex 5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="corpo-wrap">
+        <div class="container">
+            <h1>Numero de Competidor</h1>
+            <form id="competidor">
+                <label for="code">Código:</label>
+                <input type="number" id="code" name="code" required>
+                <label for="age">Idade:</label>
+                <input type="number" id="age" name="age" required>
+                <label for="height">Altura (em metros):</label>
+                <input type="number" id="height" name="height" step="0.01" required>
+                <label for="weight">Peso (em kg):</label>
+                <input type="number" id="weight" name="weight" step="0.01" required>
+                <button type="submit">Enviar</button>
+            </form>
+                <div id="result"></div>
+        </div>
+            <img src="../Img/exe01.png" alt="exercicioC">
+            <script src="script.js"></script>
+    </div>
+</body>
+</html>
